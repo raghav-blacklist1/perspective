@@ -168,15 +168,32 @@ const Features = props => (
 const FeatureCallout = props => (
     <Container padding={["bottom", "top"]} background="dark">
         <h2>Features</h2>
-        <MarkdownBlock background="dark">
-            A fast, memory efficient streaming pivot engine written principally in C++ and compiled to WebAssembly via the [emscripten](https://github.com/kripken/emscripten) compiler.
+        <MarkdownBlock background="dark"> 3,860 commits
+ 57 branches
+ 0 packages
+ 79 releases
+ 42 contributors
+ Apache-2.0
+JavaScript
+C++
+Python
+CSS
+CMake
+HTML
+Other
+Branch: master 
+New pull request
+￼ Create new fileUpload filesFind file
+Clone or download 
+This branch is even with finos:master.
+            A fast, memory efficient streaming pivot engine written principally in C++ and compiled to WebAssembly via the [emscripten](https://github.com/kripken/emscripten){:target="_blank"} compiler.
         </MarkdownBlock>
         <MarkdownBlock>
-            An embeddable, framework-agnostic configuration UI, based on [Web Components](https://www.webcomponents.org/), and a WebWorker engine host for responsiveness at high frequency.
+            An embeddable, framework-agnostic configuration UI, based on [Web Components](https://www.webcomponents.org/){:target="_blank"}, and a WebWorker engine host for responsiveness at high frequency.
         </MarkdownBlock>
-        <MarkdownBlock>A customizable HTML Data Grid plugin, and a Charts plugin built on [D3FC](https://d3fc.io/).</MarkdownBlock>
+        <MarkdownBlock>A customizable HTML Data Grid plugin, and a Charts plugin built on [D3FC](https://d3fc.io/){:target="_blank"}.</MarkdownBlock>
         <MarkdownBlock>Integration with Jupyterlab, both natively in a Python kernel, and as a notebook Widget.</MarkdownBlock>
-        <MarkdownBlock>Cross-language streaming & virtualization to the browser via [Apache Arrow](https://arrow.apache.org/).</MarkdownBlock>
+        <MarkdownBlock>Cross-language streaming & virtualization to the browser via [Apache Arrow](https://arrow.apache.org/){:target="_blank"}.</MarkdownBlock>
         <MarkdownBlock>Runtimes for the browser, Python, and Node.js.</MarkdownBlock>
     </Container>
 );
@@ -193,7 +210,7 @@ data or streaming updates via [Apache Arrow](https://arrow.apache.org/).
 - A fast, memory efficient streaming query engine, written in C++ and compiled to [WebAssembly](https://webassembly.org/), with read/write/stream support for [Apache Arrow]().
 - A framework-agnostic query configuration UI component, based on [Web Components](https://www.webcomponents.org/), and a WebWorker and/or WebSocket data engine host for stable interactivity at high frequency.
 - A customizable HTML Data Grid plugin, and a Chart plugin built on [D3FC](https://d3fc.io/).
-- Integration with [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/), both natively in a Python kernel, and as a notebook Widget.
+- Integration with [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/){:target="_blank"}, both natively in a Python kernel, and as a notebook Widget.
 - Cross-language streaming and/or virtualization to the browser via [Apache Arrow](https://arrow.apache.org/).
 - Runtimes for the browser, Python, and Node.js.
 `;
@@ -215,7 +232,7 @@ const GETTING_STARTED_TEXT = `
 \`\`\`bash
 $ yarn add --dev @finos/perspective-cli
 \`\`\`
-2. Run a test server on a CSV, JSON or [Apache Arrow](https://arrow.apache.org/):
+2. Run a test server on a CSV, JSON or [Apache Arrow](https://arrow.apache.org/){:target="_blank"}:
 \`\`\`bash
 $ yarn perspective host < superstore.arrow
 Listening on port 8080
